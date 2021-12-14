@@ -3256,11 +3256,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #43a2ca;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #43a2ca;
 		}
 
 		.wrapper.fullscreen {
@@ -3873,8 +3873,9 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		/*background-attachment: fixed;*/
+		/*background-image: url("images/intro.svg");*/
+		background-image: url("../../images/aerial_crop.jpeg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -3907,3 +3908,16 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* USER ADDED CSS */
+#intro_background {
+	color: rgba(0, 0, 0, 0.75);
+	background-color: rgba(239, 237, 245, 0.7);
+	border-radius: 25px;
+	padding: 20px; 
+}
+
+.black_font {
+	color: rgba(0, 0, 0, 0.75);
+}
