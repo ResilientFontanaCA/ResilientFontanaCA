@@ -3923,3 +3923,8 @@ input, select, textarea {
 .black_font {
 	color: rgba(0, 0, 0, 0.75);
 }
+
+#data_table a:hover {
+	/*border-bottom-color: transparent;*/
+	color: #3a7ea1;
+}
